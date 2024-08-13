@@ -1,0 +1,244 @@
+.cocktail-page {
+  display: flex;
+  flex-direction: row;
+  height: 92vh;
+  width: 100vw;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+.right-section-detail {
+  width: 50%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  height: calc(100vh - 16vh);
+  border-bottom: 1.3px solid #000;
+  overflow: hidden;
+  top: 8vh;
+  margin: 0;
+}
+.left-section,
+.right-section {
+  width: 50%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 16vh);
+  border-bottom: 1.3px solid #000;
+  overflow: hidden;
+  top: 8vh;
+  margin: 0;
+}
+
+.left-section {
+  border-right: 1.3px solid #000;
+}
+
+.back-button {
+  align-self: center;
+  bottom: 0;
+  height: 8vh;
+  width: 100%;
+  position: absolute;
+  border-top: 1.3px solid #000;
+  display: flex;
+  align-items: center; /* Centers the text vertically */
+  justify-content: center; /* Centers the text horizontally */
+  font-family: Migra;
+  font-size: 1.5rem;
+  font-weight: 200;
+  color: black;
+  text-align: center;
+}
+
+.text-recipe,
+.title-recipe {
+  font-size: 1.2rem;
+  font-family: "Konstant Grotesk", sans-serif;
+  font-weight: 300;
+  text-justify: justify;
+  line-height: 2rem;
+  border-bottom: 1.3px solid #000;
+  width: 100%;
+  flex-grow: 0; /* Prevents the item from growing */
+  flex-shrink: 0; /* Prevents the item from shrinking */
+  flex-basis: auto; /* Takes up only as much space as needed */
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.title-recipe {
+  font-weight: 500;
+}
+ul {
+  list-style-type: none;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 80%;
+  margin: 2rem;
+  text-align: left;
+}
+
+.add-recipe-page {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10rem;
+}
+.fav-slider {
+  display: flex;
+  height: 5vh;
+}
+.drink-card-small {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 350px;
+  height: 380px;
+  margin: 0.5rem;
+  border: 1.3px solid #000;
+  overflow: hidden;
+}
+.image-half {
+  width: 100%;
+}
+
+/* -----> accordion form styling -----> */
+
+.accordion-wrapper {
+  background-color: #e5e5cf;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.accordion {
+  width: 100%;
+}
+
+.item {
+  /* margin-bottom: 5px; */
+  /* padding: 20px; */
+  /* background-color: #e5e5cf; */
+  border-bottom: 1.3px solid #000;
+}
+.name {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #feb4e5;
+  cursor: pointer;
+}
+.content {
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.5s cubic-bezier(0, 1, 0, 1);
+}
+.content.show {
+  height: auto;
+  max-height: 9999px;
+  transition: all 0.5s cubic-bezier(1, 0, 1, 0);
+}
+
+.submit-button {
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  font-family: "adobe-handwriting-ernie", sans-serif;
+  font-weight: 200;
+}
+
+textarea {
+  width: 100%;
+  border-bottom: 1.3px solid #000;
+  background-color: #fffff3;
+  border-radius: 0px 0px 10px 10px;
+}
+.title-form {
+  font-size: 1.1rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 300;
+}
+.big-title-form {
+  font-size: 1.1rem;
+  font-family: "Mondwest-bold";
+  margin-bottom: 2%;
+}
+.expander {
+  font-size: 1.2rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 300;
+  padding-right: 1rem;
+}
+
+.down-container {
+  position: relative;
+  height: 50vh;
+  width: 100vw;
+  background-color: #006e3d;
+  margin-bottom: 20vh;
+  overflow: hidden; /* Prevents any child content from overflowing */
+}
+
+.line-top-container {
+  height: 8vh;
+  width: 100%; /* Ensures it fills the width of its parent */
+  border-bottom: 1.3px solid #000;
+  position: relative; /* Optional, depending on your layout needs */
+}
+
+.line-down-container {
+  height: 8vh;
+  width: 100%;
+  border-top: 1.3px solid #000;
+  bottom: 0;
+  position: absolute;
+}
+
+.text-about-page {
+  width: 70%;
+  font-family: "adobe-handwriting-ernie", sans-serif;
+  font-size: 2rem;
+  color: #000;
+  text-align: center;
+}
+
+.strip-text {
+  font-family: "Mondwest-bold";
+  font-size: 1.3rem;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+.strip-text-hand {
+  font-family: "adobe-handwriting-ernie", sans-serif;
+  font-size: 1.3rem;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+.strip-container {
+  height: 10vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* .big-logo {
+  font-size: 6rem;
+  font-family: "Migra";
+  color: white;
+} */
