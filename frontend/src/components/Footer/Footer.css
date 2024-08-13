@@ -1,0 +1,28 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 8vh;
+  background: #fffff3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Mondwest-bold";
+  border-top: 1.3px solid #000;
+}
+
+.github-link {
+  margin-left: 2rem;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: #000;
+}
+
+.github-link:hover {
+  color: white;
+}
+
+body {
+  margin-bottom: 0;
+}
