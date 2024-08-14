@@ -19,7 +19,7 @@
       "Strain into a chilled cocktail glass.",
       "Optionally, sprinkle a little matcha powder on top for garnish."
     ],
-    "image": "../../public/matcha-gin-sour.png"
+    "image": "/matcha-gin-sour.png"
   },
   {
     "id": "2",
@@ -37,7 +37,7 @@
       "Strain into a chilled martini glass.",
       "Garnish with a cinnamon stick."
     ],
-    "image": "../../public/pumptini.png"
+    "image": "/pumptini.png"
   },
   {
     "id": "3",
@@ -57,7 +57,7 @@
       "Strain into the prepared glass.",
       "Garnish with a lime wedge."
     ],
-    "image": "../../public/margarita.png"
+    "image": "/margarita.png"
   },
   {
     "id": "4",
@@ -76,7 +76,7 @@
       "Strain into a chilled martini glass.",
       "Garnish with coffee beans."
     ],
-    "image": "../../public/espresso-martini.png"
+    "image": "/espresso-martini.png"
   },
   {
     "id": "5",
@@ -96,7 +96,7 @@
       "Strain into a chilled rocks glass filled with ice.",
       "Garnish with a cherry and a slice of lemon."
     ],
-    "image": "../../public/whiskey-sour.png"
+    "image": "/whiskey-sour.png"
   },
   {
     "id": "6",
@@ -115,7 +115,7 @@
       "Strain into a rocks glass over ice.",
       "Garnish with an orange peel."
     ],
-    "image": "../../public/espresso-martini.png"
+    "image": "/espresso-martini.png"
   },
   {
     "id": "7",
@@ -135,7 +135,7 @@
       "Strain into an ice-filled rocks glass.",
       "Garnish with a cherry and an orange slice."
     ],
-    "image": "../../public/espresso-martini.png"
+    "image": "/espresso-martini.png"
   },
   {
     "id": "8",
@@ -157,7 +157,7 @@
       "Top off with soda water and stir gently.",
       "Garnish with a lime wedge and more mint."
     ],
-    "image": "../../public/espresso-martini.png"
+    "image": "/espresso-martini.png"
   },
   {
     "id": "9",
@@ -178,6 +178,6 @@
       "Top with ginger beer and stir.",
       "Garnish with a lime wedge and mint."
     ],
-    "image": "../../public/espresso-martini.png"
+    "image": "/espresso-martini.png"
   }
 ]
