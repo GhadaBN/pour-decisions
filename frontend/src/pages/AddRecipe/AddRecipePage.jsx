@@ -14,12 +14,12 @@ function AddRecipe() {
     {
       id: "1",
       cocktailName: "Matcha Gin Sour",
-      image: "../../public/matcha-gin-sour.png",
+      image: "/matcha-gin-sour.png",
     },
     {
       id: "2",
       cocktailName: "Pumptini",
-      image: "../../public/pumptini.png",
+      image: "/pumptini.png",
     },
   ]);
 
@@ -180,7 +180,7 @@ function AddRecipe() {
         </div>
 
         <div className="right-section">
-          <img className="image-half" src="../../public/cocktail-shoot.png" />
+          <img className="image-half" src="/cocktail-shoot.png" />
         </div>
       </div>
       <div className="fav-slider">
